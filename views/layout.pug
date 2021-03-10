@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/css/normalize.css")
+        link(rel="stylesheet", href="/css/app.css")
+        title #{nombrePagina}
+    body 
+        header.barra 
+            h1 GovaProyects
+            a(href="#") Cerrar Sesión
+        main.contenedor 
+            aside.contenedor-proyectos 
+                .panel.crear-proyecto 
+                    a(href="nuevoProyecto" class="boton") Proyecto
+                        span +
+                .panel.lista-proyectos
+                    h2 Proyectos
+                    ul#proyectos.proyectos 
+                        li 
+                            a(href="#") Diseño de GovaCommerce
+                        li 
+                            a(href="#") Maquetar GovaCommerce
+                        li 
+                            a(href="#") Programar GovaCommerce
+            block contenido

@@ -1,0 +1,19 @@
+{
+  "name": "gestordetareas",
+  "version": "1.0.0",
+  "description": "Proyecto gestor de Tareas con Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "author": "Mauricio Gonzalez Niño",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
